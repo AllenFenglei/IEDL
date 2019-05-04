@@ -1,0 +1,132 @@
+time slice 0, tag: 25
+Topic 0:output_layer	1.573143	openai_gym	1.539251	input_neuron	1.403637	dot_product	1.220326	sigmoid_activation_function	1.134394	
+Topic 1:loss_function	1.253770	deep_network	1.214932	let's_say	1.113361	chess_program	1.110465	weight_vector	1.110338	
+Topic 2:local_search_algorithm	0.932982	word_vector	0.930070	solution_space	0.912736	different_way	0.881550	hill_climb_algorithm	0.861490	
+Topic 3:spam_filter	0.924960	information_science	0.849798	neural_network_architecture	0.848296	statistical_model	0.842063	algorithmic_approach	0.824920	
+Topic 4:speech_recognition	1.304445	natural_language	1.171274	open_source	0.996070	speech_api	0.992205	information_extraction	0.992101	
+Topic 5:information_science	1.150563	computer_science	1.139676	artificial_intelligence	1.087458	open_source_project	1.022221	probability_theory	0.893422	
+Topic 6:make_decision	1.094764	short_answer	1.073032	self_aware	0.974143	many_others	0.963584	ask_question	0.962336	
+Topic 7:data_augmentation	0.921101	game_tree	0.910187	lee_sedol	0.889727	solution_space	0.881156	control_system	0.881048	
+Topic 8:ask_question	1.076921	formal_logic	0.964561	control_problem	0.945143	finite_time	0.867245	human_intelligence	0.833990	
+Topic 9:move_right	1.241353	next_state	1.139905	enough_information	1.121668	value_function	1.109661	solution_space	0.967984	
+time slice 1, tag: 26
+Topic 0:final_layer	0.979637	software_architecture	0.975278	artifical_intelligence	0.967668	particle_swarm_optimization	0.948784	target_value	0.946253	
+Topic 1:neural_network	1.184194	particle_swarm_optimization	1.093614	predict_whether	1.021014	linear_regression	1.010478	evaluation_function	0.995427	
+Topic 2:miss_value	1.251976	predict_whether	1.233155	data_set	1.092992	augment_data	0.988128	error_function	0.971093	
+Topic 3:feedback_loop	1.023192	word_2vec	0.858798	word_embeddings	0.822379	enough_information	0.816213	human_language	0.776245	
+Topic 4:binary_classification	0.910164	image_recognition	0.863478	value_function	0.854122	technique_call	0.845432	behaviour_policy	0.841605	
+Topic 5:activation_function	1.703110	input_layer	1.521276	output_node	1.503107	output_layer	1.444637	next_move	1.420170	
+Topic 6:self_awareness	0.936684	state_transition	0.925307	real_world	0.885629	domain_specific	0.850334	enough_time	0.846830	
+Topic 7:online_course	0.898585	use_python	0.831750	hard_problem	0.814823	prisoner's_dilemma	0.806307	partial_derivative	0.805211	
+Topic 8:waste_time	1.000036	mathematical_model	0.921442	stack_exchange	0.893346	brute_force	0.885071	beat_human	0.881921	
+Topic 9:game_tree	1.047441	discount_factor	0.973482	beat_human	0.885306	general_idea	0.880673	graph_theory	0.872279	
+time slice 2, tag: 27
+Topic 0:policy_network	1.037797	receptive_field	0.994365	data_point	0.970038	translation_invariance	0.945664	target_output	0.944354	
+Topic 1:artificial_intelligence	1.094834	research_project	1.019283	natural_language	0.985206	model_free	0.975044	question_regard	0.971434	
+Topic 2:prime_number	1.106486	error_rate	0.958798	input_image	0.922339	desire_output	0.916602	neural_network	0.868022	
+Topic 3:human_interaction	0.985766	return_value	0.949905	classification_algorithm	0.930690	among_others	0.887343	theoretical_framework	0.844369	
+Topic 4:neural_computation	0.844931	possible_outcome	0.841888	binary_classification	0.829963	optimization_process	0.827302	cognitive_architecture	0.824141	
+Topic 5:cost_function	1.069767	real_time	0.993611	random_choice	0.885780	high_frequency	0.885780	genetic_algorithm	0.882963	
+Topic 6:high_level	1.319124	computer_scientist	1.147892	artificial_intelligence	1.108845	cognitive_ability	1.105200	optimization_algorithm	1.079019	
+Topic 7:neural_network	1.088118	hypothesis_space	0.962917	seq_2seq	0.947796	turing_test	0.943756	deep_neural_network	0.908466	
+Topic 8:output_neuron	1.531025	input_neuron	1.482344	random_value	1.410482	monte_carlo	1.378354	1000_class	1.296633	
+Topic 9:black_hole	1.008277	mathematical_function	0.825100	mammalian_brain	0.825100	intelligent_behavior	0.823015	time_dependent	0.817422	
+time slice 3, tag: 28
+Topic 0:large_scale	1.052355	computer_game	0.962833	base_upon	0.941786	simple_thing	0.924924	word_embed	0.899860	
+Topic 1:machine_learn	1.189901	neural_network	1.113846	long_term	1.062824	self_play	0.987369	non_linear	0.958767	
+Topic 2:simple_model	0.971265	transition_probability	0.906379	state_space	0.893007	direct_graph	0.888799	continuous_action_space	0.875662	
+Topic 3:anchor_box	0.956814	what's_happen	0.911222	question_involve	0.856576	user_interface	0.846916	stumble_upon	0.846700	
+Topic 4:cerebral_cortex	1.367474	previous_layer	1.287216	wikipedia_article	1.239898	computation_time	1.231536	output_vector	1.222256	
+Topic 5:sigmoid_activation_function	1.319753	convolution_layer	1.262636	convolutional_neural_network	1.156181	output_layer	1.129787	error_rate	1.099711	
+Topic 6:state_space	0.917991	complex_system	0.915879	user_interface	0.877891	convolutional_net	0.874866	many_way	0.862099	
+Topic 7:user_interface	0.905883	source_code	0.899097	low_level	0.840906	what's_happen	0.832326	simple_thing	0.822066	
+Topic 8:combinatorial_game	1.254572	artificial_intelligence	1.237485	mathematical_proof	1.193346	linear_algebra	1.179030	evolutionary_approach	1.172112	
+Topic 9:truth_label	1.012547	input_feature	1.003569	high_dimensional	0.948175	correct_answer	0.919643	relevant_information	0.918042	
+time slice 4, tag: 29
+Topic 0:real_time	1.252029	high_level	0.962922	formal_logic	0.904146	computer_system	0.879885	game_engine	0.872855	
+Topic 1:objective_function	1.294189	brute_force	1.212002	prevent_overfitting	1.179609	accurate_result	1.143343	machine_learn	1.101294	
+Topic 2:quantum_computer	0.982702	sentiment_analysis	0.943153	label_data	0.895633	self_play	0.882976	time_step	0.871901	
+Topic 3:previous_experience	0.861650	momentum_term	0.857618	non_human	0.855255	geoffrey_hinton	0.853322	auto_encoder	0.827359	
+Topic 4:maximum_likelihood	1.029907	grid_search	0.896823	quantum_computer	0.871286	high_probability	0.835185	computer_vision	0.825235	
+Topic 5:max_min	0.940816	deep_learner	0.920388	weight_matrix	0.901885	train_example	0.844469	gradient_descent	0.837228	
+Topic 6:compute_resource	0.942846	character_level	0.912085	recurrent_neural_network	0.912085	min_max	0.904750	real_environment	0.899671	
+Topic 7:input_layer	1.527237	output_layer	1.255297	input_node	1.205268	real_value	1.180172	hide_layer	1.174256	
+Topic 8:validation_set	1.200595	dropout_layer	1.136066	bound_box	1.118928	test_data	1.079152	many_case	1.072246	
+Topic 9:computational_linguistics	1.028496	matrix_multiplication	0.969671	ensemble_method	0.933727	neural_network	0.915591	linear_classifier	0.906459	
+time slice 5, tag: 30
+Topic 0:next_state	1.137371	control_system	1.006930	expect_reward	0.939882	next_reward	0.923979	evolutionary_game_theory	0.917710	
+Topic 1:chess_program	1.037897	low_value	0.968502	performance_measure	0.867648	true_gradient	0.863633	lee_sedol	0.848511	
+Topic 2:neural_net	0.908162	video_frame	0.890210	input_node	0.884674	validation_set	0.872231	deep_neural_net	0.871349	
+Topic 3:hide_layer	1.490467	conv_layer	1.385960	relu_activation	1.371271	input_variable	1.324347	softmax_layer	1.195623	
+Topic 4:quantum_level	0.909406	philosophical_question	0.893067	atari_game	0.886216	feature_extraction	0.870583	correct_answer	0.864032	
+Topic 5:relu_activation	0.858514	step_toward	0.858295	global_optimum	0.854161	local_optimum	0.833662	rule_base	0.830225	
+Topic 6:rational_agent	0.947611	artificial_neural_network	0.935305	error_correction	0.863205	algorithmic_intelligence	0.835129	monte_carlo	0.829839	
+Topic 7:mini_batch	0.984946	computational_power	0.984015	model_free	0.942514	knowledge_representation	0.938913	true_gradient	0.924178	
+Topic 8:research_area	1.247385	basic_idea	1.128770	find_anything	1.109558	use_policy_gradient	1.103001	high_speed	1.084362	
+Topic 9:external_environment	1.054697	problem_solve	0.922624	rule_base	0.922624	lee_sedol	0.898253	human_experience	0.892749	
+time slice 6, tag: 31
+Topic 0:single_layer	1.409938	receptive_field	1.403409	input_channel	1.307570	many_people	1.279493	binary_number	1.258153	
+Topic 1:science_fiction	0.885670	human_visual_system	0.836262	data_scientist	0.813977	incompleteness_theorem	0.809549	law_enforcement	0.809009	
+Topic 2:linear_classifier	0.980420	input_variable	0.844447	discrete_mathematics	0.834316	graph_theory	0.811149	calculate_gradient	0.809643	
+Topic 3:neural_network	1.159882	input_feature	1.108225	output_layer	0.994397	standard_deviation	0.988098	output_value	0.983141	
+Topic 4:multi_dimensional	0.902923	search_tree	0.891950	random_weight	0.889460	output_value	0.864588	question_involve	0.858763	
+Topic 5:chess_program	1.190825	human_player	1.129704	paradigm_shift	1.095496	real_life	1.038905	artificial_intelligence	0.961864	
+Topic 6:float_point	0.934846	lstm_layer	0.927622	lstm_model	0.894416	network_architecture	0.886344	graph_theory	0.884271	
+Topic 7:operate_system	1.095491	open_source	0.873468	use_pytorch	0.852295	artificial_consciousness	0.837186	quantum_compute	0.837186	
+Topic 8:different_way	0.879122	many_case	0.862241	support_vector_machine	0.840652	calculate_gradient	0.838048	practical_computibility	0.835985	
+Topic 9:possible_outcome	0.872954	high_level	0.842594	start_node	0.827528	video_game	0.822849	real_world_problem	0.821124	
+time slice 7, tag: 32
+Topic 0:player_game	0.846845	minimum_requirement	0.837847	computation_graph	0.813133	neural_network_architecture	0.794589	artificial_evolution	0.793659	
+Topic 1:minimum_requirement	0.887888	stack_exchange	0.830286	regression_model	0.807373	artificial_evolution	0.800966	human_activity	0.790479	
+Topic 2:player_game	0.854605	naive_bayesian	0.831589	computation_graph	0.818367	probability_distribution	0.811874	simpler_model	0.805867	
+Topic 3:attenuation_matrix	1.144142	signal_propagation	1.127477	exploration_rate	1.097119	root_node	1.089514	character_level	1.082240	
+Topic 4:reward_signal	0.924818	attenuation_matrix	0.883759	collision_avoidance	0.854541	enough_information	0.823308	simpler_model	0.798697	
+Topic 5:stack_exchange	1.021963	mail_sorter	0.944517	collision_avoidance	0.916774	convolution_layer	0.903080	minimum_requirement	0.888217	
+Topic 6:data_analysis	1.019183	high_performance	1.007307	web_framework	0.974081	linear_algebra	0.945089	data_flow	0.881797	
+Topic 7:john_von_neumann	0.822583	fermi_paradox	0.815211	regression_model	0.802742	human_activity	0.797147	intelligent_life	0.795167	
+Topic 8:stack_exchange	0.995456	negative_feedback	0.922420	long_term_memory	0.838573	attention_base_network	0.838573	linear_algebra	0.835980	
+Topic 9:rule_set	1.015743	data_acquisition	0.960368	run_time	0.910094	convolution_layer	0.905582	automate_vehicle	0.897026	
+time slice 8, tag: 33
+Topic 0:hardware_acceleration	0.922076	computer_vision	0.920952	partial_derivative	0.915599	nervous_system	0.885605	specific_problem	0.876746	
+Topic 1:solve_problem	0.918070	general_knowledge	0.916899	dna_base	0.901383	computer_system	0.881650	business_intelligence	0.870906	
+Topic 2:game_play	0.993822	front_end	0.939918	vision_system	0.890930	hardware_acceleration	0.884436	nervous_system	0.884317	
+Topic 3:artificial_network	1.001075	vector_matrix_multiplication	0.937921	activation_function	0.931332	attention_mechanism	0.916502	test_case	0.915986	
+Topic 4:actual_value	1.250898	different_set	1.235169	generalize_well	1.215768	filter_kernel	1.179917	word_embed	1.179917	
+Topic 5:game_theory	0.954737	front_end	0.908659	learn_algorithm	0.895134	human_operator	0.884586	second_term	0.879102	
+Topic 6:base_upon	0.845469	computer_system	0.831537	feedback_loop	0.813610	object_recognition	0.807243	philosophical_question	0.805205	
+Topic 7:auto_encoders	1.212636	memory_cell	1.167366	time_domain	1.070527	activation_function	1.048305	connection_gene	1.044272	
+Topic 8:numerical_method	0.968784	carbon_emission	0.883392	dna_base	0.844368	philosophical_question	0.837995	game_play	0.834913	
+Topic 9:web_search	0.853094	time_space	0.850265	attention_mechanism	0.831584	specific_problem	0.830721	computer_system	0.820804	
+time slice 9, tag: 34
+Topic 0:state_space	0.923676	search_space	0.913860	mario_kart	0.900747	computer_game	0.886044	internal_model	0.867221	
+Topic 1:neural_network	1.088695	hyper_parameters	0.901124	dqn_algorithm	0.876582	remain_constant	0.870706	utility_function	0.850190	
+Topic 2:augment_data	0.954010	lstm_rnn	0.915843	twentieth_century	0.855706	100_time	0.848311	epsilon_greedy_policy	0.839698	
+Topic 3:activation_function	1.394506	output_layer	1.292776	time_stamp	1.199921	use_sigmoid_activation	1.191478	filter_size	1.185906	
+Topic 4:batch_normalization	0.930008	raw_data	0.874765	english_word	0.868658	linear_function	0.827401	full_set	0.823355	
+Topic 5:grammar_rule	0.863902	wonder_whether	0.847510	start_state	0.821727	search_tree	0.821727	stack_exchange	0.819176	
+Topic 6:fuzzy_logic	1.018632	intelligent_agent	0.967817	regular_expression	0.950706	artificial_intelligence	0.949303	nervous_system	0.945735	
+Topic 7:parameter_matrix	1.278850	span_class	1.267553	math_container	1.180128	high_value	1.160708	sigma_span	1.154198	
+Topic 8:search_algorithm	0.881002	start_state	0.870026	search_tree	0.870026	surpass_human	0.861988	constraint_satisfaction_problem	0.857390	
+Topic 9:human_driver	1.148674	surpass_human	0.861531	cell_type	0.859914	von_neumann's	0.842326	regular_expression	0.837165	
+time slice 10, tag: 35
+Topic 0:logical_inference	1.218293	business_intelligence	1.081081	long_term	0.976182	turing's_imitation_game	0.967324	general_intelligence	0.957825	
+Topic 1:let's_assume	0.885424	standard_deviation	0.883429	general_problem_solver	0.867411	markov_chain	0.864916	feature_selection	0.863779	
+Topic 2:algorithmic_intelligence	1.038076	artificial_system	0.968239	information_theory	0.968231	game_theory	0.957258	natural_language	0.922366	
+Topic 3:real_number	1.061527	span_class	1.035614	input_channel	1.035134	word_embed	1.014051	output_value	0.997648	
+Topic 4:similar_thing	0.873630	game_theory	0.854295	web_search	0.849186	data_collection	0.845816	artificial_intelligence	0.845200	
+Topic 5:100_time	1.256530	maximum_value	1.252382	maximum_possible	1.250925	activation_map	1.242494	input_channel	1.232788	
+Topic 6:mammalian_brain	1.147530	pretrained_model	1.004472	generalize_well	0.973945	data_set	0.943351	simple_way	0.939262	
+Topic 7:information_theory	0.928721	search_strategy	0.902633	feature_extraction	0.881095	different_set	0.858595	input_output_pair	0.858548	
+Topic 8:general_problem_solver	0.921091	optimal_solution	0.886834	chess_player	0.870745	counter_example	0.830112	search_tree	0.826876	
+Topic 9:bound_box	0.954681	artificial_network	0.947062	let's_start	0.931931	claude_shannon	0.929822	data_center	0.914368	
+time slice 11, tag: 36
+Topic 0:dna_base	0.908104	rule_set	0.871000	career_path	0.847895	general_rule	0.830914	cut_edge	0.830222	
+Topic 1:image_recognition	1.068424	career_path	1.002464	local_minimum	0.934839	adaptive_system	0.929414	graph_structure	0.914797	
+Topic 2:neural_network	1.130454	regression_problem	1.127268	test_data	1.126297	recognition_system	0.996407	current_state	0.982104	
+Topic 3:take_action	0.947878	compute_resource	0.917998	input_output_pair	0.902557	indicate_whether	0.900966	recognize_object	0.876820	
+Topic 4:biological_neuron	1.380410	weight_vector	1.356254	traffic_light	1.293053	random_move	1.284592	target_output	1.279734	
+Topic 5:search_strategy	0.986705	object_type	0.952923	counter_example	0.950068	high_level	0.947024	operate_system	0.916985	
+Topic 6:expert_system	0.944773	artificial_intelligence	0.941086	career_path	0.912675	autonomous_vehicle	0.879801	compute_power	0.877573	
+Topic 7:play_chess	0.921065	something_useful	0.883892	brute_force	0.881383	face_recognition	0.862698	travel_salesman_problem	0.838033	
+Topic 8:tree_search_algorithm	1.043643	make_sense	0.930441	operate_system	0.915111	electronic_brain	0.905011	lstm_cell	0.890398	
+Topic 9:video_frame	0.907212	digital_image	0.907212	artificial_consciousness	0.867127	recognize_object	0.864302	john_von_neumann	0.835825	

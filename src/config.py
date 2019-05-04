@@ -15,6 +15,7 @@ class Config(object):
     __SEC_INFO = "Info"
     __SEC_STORE = "Store"
     __SEC_TOPICS = "Topics"
+    __SEC_DECAY = "DecaySwitch"
     __SEC_PHRASES = "Phrases"
     __SEC_VALIDATE = "ValidateFiles"
     __SEC_VAL = "Validate"
@@ -76,6 +77,10 @@ class Config(object):
     @classmethod
     def get_window_size(cls):
         return cls.__get_attr(int, cls.__SEC_TOPICS, "WindowSize")
+
+    @classmethod
+    def get_decay_flag(cls):
+        return cls.__get_attr(int, cls.__SEC_DECAY, "DecayFlag")
 
     @classmethod
     def get_bigram_min(cls):

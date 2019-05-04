@@ -116,7 +116,7 @@ class OLDA:
         if len(logger.handlers) == 1 and isinstance(logger.handlers[0], logging.NullHandler):
             logging.basicConfig(level=logging.INFO)
 
-    def fit(self, X, alpha=0.1, eta=0.01, y=None):
+    def fit(self, X, decay_flag, alpha=0.1, eta=0.01, y=None):
         """Fit the model with X.
 
         Parameters
@@ -142,7 +142,7 @@ class OLDA:
             if t == 0:
                 eta_m = np.full((n_topics, W), eta).astype(np.float64)
             else:
-                eta_m = self.soft_align(self.B, self.window_size, self.theta).astype(np.float64)
+                eta_m = self.soft_align(self.B, self.window_size, self.theta, decay_flag).astype(np.float64)
             alpha_m = np.full((D, n_topics), alpha).astype(np.float64)
             self.alpha_m = alpha_m
             self.eta_m = eta_m
@@ -170,14 +170,18 @@ class OLDA:
         #self.test_SVM(self.A[2],"../dataset/software_label.txt")    #test for solfware     !!!!!!!!!!!!!!
         return self
 
-    def soft_align(self, B, window_size, theta):
+    def soft_align(self, B, window_size, theta, decay_flag):
         """
         Soft alignment to produce a soft weight sum of B according to window size
         """
         eta = B[-1]
         eta_new = np.zeros(eta.shape)
-        #weights = self.softmax(eta, B, window_size)
-        weights = self.Exponential_Decay(eta, B, window_size)
+        if decay_flag == 0:
+            logging.info("Using similarities.")
+            weights = self.softmax(eta, B, window_size)
+        else:
+            logging.info("Using exponential decay.")
+            weights = self.Exponential_Decay(eta, B, window_size)
         for i in range(window_size):
             if i > len(B)-1:
                 break
@@ -230,7 +234,7 @@ class OLDA:
         #print(weights[0])   #[ 1.00263107  1.00360126  1.00329721  1.00297992  1.01121932  1.00732886  1.00261926  1.01368105]
         # weights = np.ones(weights.shape)            # compare to uniform
         n_weights = weights / np.sum(weights, 0)  # column normalize
-        print(n_weights)
+        #print(n_weights)
         
         #[[ 0.18653837  0.1865785   0.18666854  0.18725954  0.18683939  0.18660835   0.18821754  0.18675937]
         #[ 0.30712336  0.30695458  0.30711745  0.30811781  0.30709808  0.30705398   0.30602268  0.30722897]
@@ -635,8 +639,8 @@ class OLDA:
         return num/len(y)
 
     def test_SVM(self, X, y_path):
-        #y = np.array(self.read_labels_deeplearning(y_path))
-        y = np.array(self.read_labels_software(y_path))
+        y = np.array(self.read_labels_deeplearning(y_path))
+        #y = np.array(self.read_labels_software(y_path))
         X = np.array(X)
         #print y
         #print X

@@ -1,0 +1,539 @@
+!!<TOTAL_WINDOWS>!!|1451458
+100 time|76
+1000 class|133
+accurate result|190
+activation function|6093
+activation function|artificial network|42
+activation function|filter size|13
+activation function|input layer|13
+activation function|memory cell|5
+activation function|output layer|199
+activation function|output node|54
+activation function|use sigmoid activation|68
+activation map|152
+actual value|114
+adaptive system|152
+algorithmic approach|133
+algorithmic intelligence|321
+algorithmic intelligence|rational agent|4
+among others|228
+anchor box|261
+artifical intelligence|140
+artificial consciousness|400
+artificial consciousness|quantum compute|12
+artificial evolution|133
+artificial intelligence|14599
+artificial intelligence|chess program|10
+artificial intelligence|cognitive ability|3
+artificial intelligence|combinatorial game|30
+artificial intelligence|compute power|1
+artificial intelligence|computer science|147
+artificial intelligence|computer scientist|40
+artificial intelligence|expert system|26
+artificial intelligence|fuzzy logic|8
+artificial intelligence|human player|11
+artificial intelligence|intelligent agent|50
+artificial intelligence|linear algebra|4
+artificial intelligence|mathematical proof|10
+artificial intelligence|natural language|85
+artificial intelligence|open source project|10
+artificial network|2658
+artificial neural network|1512
+artificial system|423
+ask question|456
+atari game|513
+attention base network|126
+attention base network|long term memory|10
+attention mechanism|133
+attenuation matrix|213
+augment data|150
+augment data|data set|15
+auto encoder|76
+auto encoders|38
+automate vehicle|152
+autonomous vehicle|505
+base upon|171
+basic idea|551
+batch normalization|380
+beat human|228
+behaviour policy|163
+binary classification|380
+binary number|152
+biological neuron|569
+black hole|133
+black hole|time dependent|3
+bound box|623
+brute force|735
+business intelligence|209
+calculate gradient|171
+carbon emission|140
+career path|95
+cell type|242
+cerebral cortex|114
+character level|114
+character level|recurrent neural network|12
+chess player|209
+chess program|361
+classification algorithm|301
+claude shannon|228
+cognitive ability|190
+cognitive ability|high level|21
+cognitive architecture|247
+collision avoidance|209
+combinatorial game|742
+combinatorial game|mathematical proof|6
+complex system|444
+computation graph|180
+computation time|323
+computational linguistics|133
+computational power|703
+compute power|793
+compute resource|608
+computer game|532
+computer science|1740
+computer science|information science|15
+computer scientist|393
+computer system|674
+computer system|high level|11
+computer vision|2099
+connection gene|167
+constraint satisfaction problem|180
+continuous action space|216
+control problem|638
+control system|929
+conv layer|489
+convolution layer|399
+convolution layer|convolutional neural network|7
+convolutional net|133
+convolutional neural network|2469
+convolutional neural network|error rate|20
+correct answer|371
+cost function|1772
+counter example|95
+current state|1660
+current state|neural network|10
+cut edge|152
+data acquisition|171
+data acquisition|rule set|7
+data analysis|360
+data augmentation|514
+data center|190
+data collection|171
+data flow|190
+data point|1309
+data scientist|367
+data set|4247
+data set|miss value|62
+deep learner|171
+deep network|1465
+deep network|loss function|15
+deep neural net|234
+deep neural network|1753
+deep neural network|neural network|1753
+deep neural net|neural net|234
+desire output|342
+different set|342
+different way|885
+digital image|145
+direct graph|272
+discount factor|1010
+discrete mathematics|114
+dna base|190
+domain specific|434
+dot product|356
+dot product|output layer|15
+dqn algorithm|141
+dqn algorithm|neural network|17
+dropout layer|152
+electronic brain|114
+english word|133
+enough information|323
+enough information|next state|6
+enough information|value function|14
+enough time|266
+ensemble method|145
+epsilon greedy policy|36
+error correction|114
+error function|754
+error rate|502
+error rate|neural network|102
+error rate|prime number|10
+evaluation function|1330
+evaluation function|neural network|61
+evolutionary approach|171
+evolutionary game theory|216
+expect reward|266
+expert system|994
+exploration rate|274
+external environment|94
+face recognition|471
+feature extraction|1051
+feature selection|354
+feedback loop|247
+fermi paradox|57
+fermi paradox|intelligent life|5
+filter kernel|128
+filter size|114
+final layer|209
+find anything|285
+finite time|133
+float point|733
+formal logic|170
+front end|152
+front end|vision system|14
+full set|123
+fuzzy logic|1656
+fuzzy logic|regular expression|10
+game engine|513
+game play|579
+game theory|1758
+game theory|information theory|10
+game theory|learn algorithm|7
+game theory|natural language|19
+game tree|266
+game tree|lee sedol|2
+general idea|304
+general intelligence|2962
+general intelligence|turing's imitation game|11
+general knowledge|124
+general problem solver|180
+general rule|171
+generalize well|152
+genetic algorithm|3952
+geoffrey hinton|228
+global optimum|353
+global optimum|local optimum|31
+gradient descent|3829
+gradient descent|train example|3
+grammar rule|304
+graph structure|123
+graph theory|209
+grid search|133
+hard problem|323
+hardware acceleration|133
+hide layer|298
+hide layer|input layer|41
+hide layer|output layer|13
+hide layer|softmax layer|12
+high dimensional|266
+high frequency|152
+high level|2465
+high level|real time|9
+high performance|114
+high probability|491
+high speed|456
+high value|513
+high value|span class|10
+hill climb algorithm|300
+hill climb algorithm|local search algorithm|17
+human activity|123
+human driver|342
+human experience|208
+human intelligence|3025
+human interaction|114
+human language|399
+human operator|304
+human player|1062
+human visual system|131
+hypothesis space|167
+hypothesis space|neural network|3
+image recognition|1851
+incompleteness theorem|304
+indicate whether|126
+information extraction|120
+information science|133
+information theory|342
+input channel|431
+input feature|590
+input feature|output value|3
+input feature|standard deviation|18
+input image|885
+input image|neural network|38
+input layer|1054
+input layer|output layer|158
+input neuron|518
+input neuron|output neuron|137
+input node|399
+input node|neural net|9
+input node|output layer|6
+input variable|342
+intelligent agent|1038
+intelligent behavior|228
+intelligent life|57
+internal model|133
+john von neumann|198
+knowledge representation|559
+label data|707
+large scale|360
+law enforcement|171
+learn algorithm|3280
+lee sedol|285
+let's assume|465
+let's say|1795
+let's start|133
+linear algebra|868
+linear algebra|mathematical proof|15
+linear classifier|152
+linear classifier|neural network|8
+linear function|621
+linear regression|1239
+linear regression|neural network|39
+local minimum|1051
+local optimum|520
+local search algorithm|270
+logical inference|351
+long term|550
+long term memory|54
+loss function|3190
+low level|866
+low value|264
+lstm cell|95
+lstm layer|438
+lstm model|240
+lstm rnn|57
+machine learn|6845
+machine learn|neural network|349
+mail sorter|95
+mail sorter|minimum requirement|15
+make decision|589
+make sense|2561
+mammalian brain|171
+mammalian brain|mathematical function|5
+many case|703
+many case|validation set|16
+many others|190
+many people|665
+many way|418
+mario kart|152
+markov chain|570
+mathematical function|152
+mathematical model|589
+mathematical proof|301
+matrix multiplication|345
+matrix multiplication|neural network|43
+maximum likelihood|190
+maximum possible|114
+maximum value|304
+memory cell|439
+memory cell|time domain|11
+min max|19
+mini batch|225
+minimum requirement|113
+miss value|215
+model free|95
+momentum term|133
+monte carlo|1478
+monte carlo|random value|6
+move right|222
+move right|next state|7
+naive bayesian|171
+natural language|4529
+natural language|open source|5
+natural language|research project|7
+natural language|speech api|10
+natural language|speech recognition|36
+negative feedback|161
+nervous system|369
+network architecture|1144
+neural computation|76
+neural net|5168
+neural network|41947
+neural network architecture|535
+neural network|non linear|8
+neural network|output layer|160
+neural network|output value|37
+neural network|particle swarm optimization|13
+neural network|predict whether|40
+neural network|prime number|32
+neural network|recognition system|14
+neural network|regression problem|58
+neural network|remain constant|17
+neural network|seq 2seq|12
+neural network|standard deviation|12
+neural network|test data|4
+neural net|validation set|12
+next move|323
+next move|output node|6
+next reward|144
+next reward|next state|102
+next state|1002
+non human|19
+non linear|114
+numerical method|151
+object recognition|795
+object type|186
+objective function|768
+online course|321
+online course|use python|24
+open source|1719
+open source project|234
+open source|operate system|5
+open source|speech recognition|34
+openai gym|418
+operate system|228
+optimal solution|578
+optimization algorithm|512
+optimization process|164
+output layer|2031
+output layer|output node|2
+output layer|sigmoid activation function|43
+output layer|use sigmoid activation|12
+output neuron|677
+output node|748
+output value|790
+output value|span class|34
+output vector|458
+paradigm shift|133
+parameter matrix|133
+parameter matrix|span class|34
+partial derivative|587
+particle swarm optimization|126
+performance measure|307
+philosophical question|171
+play chess|520
+player game|164
+policy network|209
+possible outcome|315
+practical computibility|133
+predict whether|304
+pretrained model|138
+prevent overfitting|190
+previous experience|95
+previous layer|640
+prime number|247
+prisoner's dilemma|373
+probability distribution|714
+probability theory|209
+problem solve|684
+problem solve|rule base|6
+quantum compute|133
+quantum computer|639
+quantum level|152
+question involve|209
+question regard|304
+random choice|133
+random move|253
+random value|299
+random weight|304
+rational agent|418
+raw data|198
+real environment|106
+real life|722
+real number|945
+real number|span class|77
+real time|1801
+real value|190
+real world|2359
+real world problem|252
+receptive field|624
+receptive field|single layer|8
+recognition system|247
+recognize object|133
+recurrent neural network|1277
+regression model|247
+regression problem|471
+regular expression|133
+relevant information|133
+relu activation|247
+remain constant|133
+research area|228
+research project|380
+return value|133
+reward signal|314
+root node|114
+rule base|524
+rule set|152
+run time|526
+science fiction|589
+search algorithm|1929
+search algorithm|search tree|12
+search space|884
+search space|state space|11
+search strategy|152
+search tree|638
+second term|165
+self aware|198
+self awareness|258
+self play|133
+sentiment analysis|407
+seq 2seq|323
+short answer|402
+sigmoid activation function|468
+signal propagation|114
+similar thing|171
+simple model|450
+simple model|state space|52
+simple thing|228
+simple way|351
+simpler model|152
+single layer|485
+softmax layer|266
+software architecture|114
+solution space|209
+solve problem|893
+something useful|133
+source code|965
+spam filter|180
+span class|28903
+specific problem|323
+speech api|133
+speech api|speech recognition|14
+speech recognition|1311
+stack exchange|684
+standard deviation|913
+start node|152
+start state|247
+state space|1570
+state transition|513
+statistical model|284
+step toward|171
+stumble upon|114
+support vector machine|396
+surpass human|114
+take action|494
+target output|57
+target value|332
+technique call|152
+test case|171
+test data|759
+theoretical framework|152
+time dependent|95
+time domain|323
+time stamp|171
+time step|1553
+traffic light|114
+train example|323
+transition probability|266
+translation invariance|190
+travel salesman problem|149
+tree search algorithm|162
+true gradient|188
+truth label|143
+turing test|2461
+turing's imitation game|198
+twentieth century|171
+use policy gradient|144
+use python|646
+use pytorch|171
+use sigmoid activation|108
+user interface|247
+utility function|304
+validation set|645
+value function|1575
+video frame|137
+video game|680
+vision system|418
+von neumann's|190
+waste time|171
+web framework|152
+web search|173
+weight matrix|380
+weight vector|225
+what's happen|152
+wikipedia article|247
+wonder whether|247
+word 2vec|538
+word 2vec|word embeddings|38
+word embed|190
+word embeddings|293
+word vector|397

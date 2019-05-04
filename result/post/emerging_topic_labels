@@ -1,0 +1,121 @@
+time slice 1, tag: 26
+Topic 0: None
+Topic 1: None
+Topic 2: None
+Topic 3: None
+Topic 4: None
+Topic 5: predict_whether	0.853279	matrix_multiplication	0.810246	problem_statement	0.804139	
+Topic 6: None
+Topic 7: None
+Topic 8: None
+Topic 9: None
+time slice 2, tag: 27
+Topic 0: None
+Topic 1: None
+Topic 2: None
+Topic 3: None
+Topic 4: None
+Topic 5: None
+Topic 6: None
+Topic 7: None
+Topic 8: implementation_detail	0.818757	independent_variable	0.805629	mammalian_brain	0.792245	
+Topic 9: None
+time slice 3, tag: 28
+Topic 0: large_scale	0.940268	base_upon	0.919871	word_embed	0.911748	
+Topic 1: None
+Topic 2: None
+Topic 3: None
+Topic 4: None
+Topic 5: None
+Topic 6: None
+Topic 7: None
+Topic 8: user_interface	0.941183	control_theory	0.937487	artificial_intelligence	0.893708	
+Topic 9: None
+time slice 4, tag: 29
+Topic 0: None
+Topic 1: None
+Topic 2: None
+Topic 3: None
+Topic 4: None
+Topic 5: None
+Topic 6: None
+Topic 7: None
+Topic 8: None
+Topic 9: None
+time slice 5, tag: 30
+Topic 0: None
+Topic 1: None
+Topic 2: None
+Topic 3: None
+Topic 4: None
+Topic 5: None
+Topic 6: None
+Topic 7: None
+Topic 8: None
+Topic 9: None
+time slice 6, tag: 31
+Topic 0: None
+Topic 1: None
+Topic 2: None
+Topic 3: None
+Topic 4: None
+Topic 5: None
+Topic 6: None
+Topic 7: None
+Topic 8: None
+Topic 9: None
+time slice 7, tag: 32
+Topic 0: None
+Topic 1: None
+Topic 2: None
+Topic 3: None
+Topic 4: None
+Topic 5: None
+Topic 6: None
+Topic 7: None
+Topic 8: None
+Topic 9: None
+time slice 8, tag: 33
+Topic 0: None
+Topic 1: None
+Topic 2: None
+Topic 3: None
+Topic 4: None
+Topic 5: None
+Topic 6: None
+Topic 7: None
+Topic 8: None
+Topic 9: None
+time slice 9, tag: 34
+Topic 0: None
+Topic 1: None
+Topic 2: None
+Topic 3: None
+Topic 4: None
+Topic 5: None
+Topic 6: None
+Topic 7: math_container	1.180117	time_step	0.930665	span_class	0.901454	
+Topic 8: None
+Topic 9: None
+time slice 10, tag: 35
+Topic 0: None
+Topic 1: None
+Topic 2: None
+Topic 3: None
+Topic 4: None
+Topic 5: None
+Topic 6: None
+Topic 7: game_tree	0.848033	web_search	0.826213	information_theory	0.825493	
+Topic 8: None
+Topic 9: None
+time slice 11, tag: 36
+Topic 0: None
+Topic 1: None
+Topic 2: None
+Topic 3: None
+Topic 4: None
+Topic 5: operate_system	0.875746	counter_example	0.859449	object_type	0.854755	
+Topic 6: None
+Topic 7: None
+Topic 8: None
+Topic 9: None

@@ -51,6 +51,7 @@ trigram_min = Config.get_trigram_min()
 info_num = Config.get_info_num()
 store_num = Config.get_store_num()
 val_index = Config.get_validate_or_not()
+decay_flag = Config.get_decay_flag()
 
 
 def extract_review():
@@ -278,7 +279,7 @@ def OLDA_fit(OLDA_input, n_topics, win_size):
         dictionary, input_X, _, _1, _2 = item
         #print(input_X)
         olda_model = OLDA(n_topics=n_topics, n_iter=1000, refresh=500, window_size=win_size)
-        olda_model.fit(input_X)
+        olda_model.fit(input_X, decay_flag)
         phis[apk] = olda_model.B
         theta[apk] = olda_model.A
         fout = open("../result/topic_words_%s_%s_%s"%(apk, n_topics, win_size), 'w')
@@ -447,7 +448,7 @@ def topic_labeling(OLDA_input, apk_phis, phrases, mu, lam, theta, save=True):
             fout_sents = open(os.path.join(result_path, "topic_sents"), "w")
             fout_emerging_sent = open(os.path.join(result_path, "emerging_topic_sents"), 'w')
             fout_topic_width = open(os.path.join(result_path, "topic_width"), 'w')
-            fout_topic_cohe_labels = open("../../topic_cohe/data/post.txt", 'w')    #
+            fout_topic_cohe_labels = open("../topic_cohe/data/post.txt", 'w')    #
 
         for t_i, phi in enumerate(phis):
             # label topic
