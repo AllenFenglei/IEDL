@@ -1,47 +1,51 @@
-# IDEA
-IDEA (IDentifying Emerging issues from App reviews) is a framework for detecting emerging issues from version-sensitive app reviews. You can view the [visualized demo](https://remine-lab.github.io/paper/idea_icse_18.html#home) with the output of IDEA on Youtube dataset.
+# IEDL
+In this project, we propose a novel online topic tracking framework, named IEDL, for tracking
+the topic changes related to deep learning techniques on Stack Exchange and automatically in-
+terpreting each identified topic.  The proposed framework combines the prior topic distributions
+in a time window during inferring the topics in current time slice, and introduces a new ranking
+scheme to select most representative phrases and sentences for the inferred topics.  Experiments
+on 7,076 Stack Exchange posts show the effectiveness of IEDL in tracking topic change
 
-<p align="center"><img width="70%" src="framework.png" /></p>
+<p align="center"><img width="70%" src="AOLDAP.png" /></p>
 
-IDEA employs a novel method AOLDA (Adaptively Online Latent Dirichlet Allocation) to model version-sensitive topic distributions. The emerging topics are then identified based on anomaly detection algorithm. IDEA labels each topic with the most relevant phrases and sentences based on an effective ranking scheme considering both semantic relevance and user sentiment. More details can be referred to the following paper: 
+This project is based on the work of [IDEA](https://github.com/ReMine-Lab/IDEA)
 
-> Cuiyun Gao, Jichuan Zeng, Michael Lyu, Irwin King. Online App Review Analysis for Identifying Emerging Issues. ICSE 2018.
+> Fenglei JIN, Cuiyun Gao, Michael Lyu. An Online Topic Modeling Framework with Topics Automatically Labeled.
 
 
 ## Input Data Format
-Input raw reviews should be saved as the following format per line. The attributes are separated by `******`, and only the first five attributes are necessary. The number of attributes should be claimed in the variable `InfoNum` under the `[Info]` section. Here, `InfoNum=6`.
+Input raw posts should be saved as the following format per line. The attributes are separated by `******`. The number of attributes should be claimed in the variable `InfoNum` under the `[Info]` section. Here, `InfoNum=10`. And all data preprocess files are in the `data` file. And to show the quality of topic distribution, we train a SVM based on 507 maually labeld data. All raw datas are in `data/rawdata` file and can be directly downloaded from the Internet: [Dataset](https://archive.org/download/stackexchange).
 
 ```
-rating******review text******title******date******version******nation
+rating******review text******title******date******version******views
 ```
 
 ## Usage
-1. Install python dependence packages for IDEA:
+1. Install python dependence packages for IEDL:
 
 ```
-$ cd IDEA/
+$ cd IEDL/
 $ ./install.sh
 ```
-IDEA is built on Python2.7 under Linux or iOS, add `sudo` before the installation command if you need administrator permission.
+IEDL is built on Python2.7 (and some prepocessing parts are based on Python 3.6) under Ubuntu, add `sudo` before the installation command if you need administrator permission.
 
-2. **Notice:** If this is the first time to use IDEA in your computer, you need to compile pyx and c. Also make sure `_lda.c` and `_lda.so` have been deleted before running the command:
+2. **Notice:** If this is the first time to use IEDL in your computer, you need to compile pyx and c. Also make sure `_lda.c` and `_lda.so` have been deleted before running the command (you are suggested to delete these files and rebuild on your computer):
 
 ```
 $ cd src/
 $ python build_pyx.py build_ext --inplace
 ```
 
-3. Run the main program using sample data. This may take several minutes.
+3. Run the main program using the preprocessed data. This may take several minutes.
 
 ```
-$ python main.py
+$ ./run normal			//for the orginal IDEA approach
+$ ./run test			//for the testing accuracy based on manually labeled data
+$ ./run views			//for the new approach based on views attribute
 ```
 
-One can modify the parameters for the inputs and outputs in `config.ini` easily. The outputs will be stored in `result/`.
-
-## Dataset in the Paper
-Researchers interested in obtaining the the full dataset (including the validation files) used in the paper may submit a [data request form](https://goo.gl/forms/nAAkSa5o5yrSIaPr2) to be provided with the data usage agreement and further information on obtaining the data.
-
+One can modify the parameters for the inputs and outputs in `config.ini` easily (modify `DecayFlag` to show power of exponential decay). The outputs will be stored in `result/`. And for `normal` approach and `views` approach, we can find the topic coherence in 
+`topic_cohe/results/score-topics-words.txt`.
 
 ## Visualization
 1. The source code for visualization is under the folder `visualization`. To prepare the input for visualization, we first run
@@ -49,40 +53,13 @@ Researchers interested in obtaining the the full dataset (including the validati
 ```
 $ python get_input <result_folder> <topic_number>
 
-result_folder ----- the output dir of IDEA, should contain apk name, e.g., '../result/youtube/'
+result_folder ----- the output dir of IEDL, e.g., '../result/post/'
 topic_nubmer  ----- the number of topics
 ```
 
 2. Use localhost server to display the topic river. For Python 2, run `$ python -m SimpleHTTPServer 7778`, while for Python 3, run `python -m http.server 7778`. `7778` is the port number for viewing the visualization, e.g., for localhost, here we type `localhost:7778` in the browser.
 
-**For Linux or iOS:**, can simply run:
-
-```
-$ bash visualize.sh <result_folder> <K>
-```
-
-## Validation
-1. Download the word2vec model trained on 4 millions app reviews from this [link](https://www.dropbox.com/s/et4n6sj3k94ku2s/wv.zip?dl=0), and unzip the directory in the `model` folder.
-
-2. Change the value of `Validate` in `config.ini` to be `1`, and run the script.
-
-```
-$ python main.py
-```
-
-## Citation
-
-Please cite the ICSE paper if you use IDEA / datasets / trained word2vec in your work:
-```
-@inproceedings{gao2018online,
-    title={Online App Review Analysis for Identifying Emerging Issues},
-    author={Cuiyun Gao and Jichuan Zeng and Michael R. Lyu and Irwin King},
-    booktitle={Proceedings of the 40th International Conference on Software Engineering, {ICSE} 2018},
-    year={2018}
-}
-```
-## Related Link
-* [ReMine-Lab](https://remine-lab.github.io/), you can see our other work.
+You can see a demo directly by enter [demo](http://appsrv.cse.cuhk.edu.hk/~fljin7/fyp_term2/index.html).
 
 ## History
-2018-2-4: first version of IDEA
+2019-5-4: first version of IEDL
