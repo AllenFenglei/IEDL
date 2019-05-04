@@ -7,6 +7,7 @@
 #2. compute the observed coherence using the chosen metric
 
 #parameters
+cd ../topic_cohe/
 metric="pmi" #evaluation metric: pmi, npmi or lcp
 #input
 topic_file="data/post.txt"

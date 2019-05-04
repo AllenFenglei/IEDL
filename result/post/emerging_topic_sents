@@ -4,7 +4,7 @@ Topic 1: None
 Topic 2: None
 Topic 3: None
 Topic 4: None
-Topic 5: <digit> <digit> max pooling 1d <digit>	27.523088	<digit> <digit> up sampling 1d <digit>	27.498263	<digit> <digit> up sampling 1d <digit>	27.498263	
+Topic 5: None
 Topic 6: None
 Topic 7: None
 Topic 8: None
@@ -18,18 +18,18 @@ Topic 4: None
 Topic 5: None
 Topic 6: None
 Topic 7: None
-Topic 8: also do i_understand it correctly that each_unit in the_top layer be a binary scalar take on the value of <digit> or <digit>	23.194175	i_have a snake program setup to input the accord data to a densely_connect network with <digit> input_neuron <digit> hidden neuron and <digit> output_neuron	23.021037	i've think that i can use the weight for that network into a new one with <digit> input value and n output_value but_i'm_not sure_if i can do that	22.969718	
+Topic 8: it take at_least <digit> bit to represent any number between <digit> <digit> because 2_^ <digit> <digit>	26.823772	and output <digit> number would work	26.672320	also do i_understand it correctly that each_unit in the_top layer be a binary scalar take on the value of <digit> or <digit>	26.671352	
 Topic 9: None
 time slice 3, tag: 28
-Topic 0: so i_suspect_that ai might achieve parity with overall human_intelligence but may_not also become capable_of behave_like_a human or understand certain thing where the understanding be develop experientially	20.407535	a human talk_to a computer and decides if_they think it's a human or not	20.407402	connection and relevance exists between the two_adjacent layer and that's how a human cognitive mind work	20.336347	
+Topic 0: None
 Topic 1: None
 Topic 2: None
 Topic 3: None
 Topic 4: None
 Topic 5: None
-Topic 6: None
-Topic 7: None
-Topic 8: for_question_about the use aspect implementation intuition mathematical_proof of various linear_algebra method use in machine learning and ai algorithm	24.573131	for_question_about clarification method algorithms best_practice for application possible application of artificial_intelligence and machine learning algorithm	24.296820	what ai machine learning or evolutionary_approach could be use to generate personalized tactic for_each character base_on repeated run of the scenario	24.102401	
+Topic 6: assume l <digit> if_you prune l then the value of the tree be <digit>	64.944821	i_have <digit> image with <digit> digit on each	64.917049	cover <digit> of the image	64.893143	
+Topic 7: how_fast can your_model generate an output correspond_to a change in the input	64.310077	be the first one of a word and a <digit> on the output determine_if it's the_last one	64.266750	usually the error be quite small within the input interval around around <digit> but the network be not able_to_get good weight for the region at the boundary of the interval	64.265251	
+Topic 8: replication of intelligence be subject from a definition that human and animal have autonomy of it's need in replication have to account_for this asumption and it's singularity and our method in it within the machine we_have at the_moment which now reduce to computer	76.514911	level_of human ai interaction to date	76.450138	so i_suspect_that ai might achieve parity with overall human_intelligence but may_not also become capable_of behave_like_a human or understand certain thing where the understanding be develop experientially	76.438582	
 Topic 9: None
 time slice 4, tag: 29
 Topic 0: None
@@ -58,7 +58,7 @@ Topic 0: None
 Topic 1: None
 Topic 2: None
 Topic 3: None
-Topic 4: None
+Topic 4: however use super computing platform basic analysis algorithm such_a fft function and statistic package with correlation_coefficient routine naive_bayesian capability and convergence detection support will certainly assist_in reduce the development effort require to_implement and test this approach or others like it	43.161764	the a algorithm use the	43.150225	this_tag should be use for_question_about the mcts algorithm	43.133578	
 Topic 5: None
 Topic 6: None
 Topic 7: None
@@ -94,7 +94,7 @@ Topic 3: None
 Topic 4: None
 Topic 5: None
 Topic 6: None
-Topic 7: span be the_advantage_function of state and action upon it span_class	23.536575	q_v a span over_time both span_class	23.335250	span line that intersect span_class	23.334426	
+Topic 7: it be artificial in that it do_not naturally_occur in nature it be intelligent in that it adapt in way that if those way be mechanical they be mechanical at a level_of detail that be beyond obviousness without considerable study a year dependent and culturally dependent a that definition_of intelligence be no other definition be quite a sustainable over decade from both scientific and linguistic perspective	62.738670	we might wish_to know span_class	62.710677	base_on some definition we require span_class	62.704789	
 Topic 8: None
 Topic 9: None
 time slice 10, tag: 35
@@ -104,8 +104,8 @@ Topic 2: None
 Topic 3: None
 Topic 4: None
 Topic 5: None
-Topic 6: None
-Topic 7: certainly information_theory be key to this problem of automated map making map use and maintain one already make all of which require in vary_degree the processing of visual and auditory information in_real_time	26.774234	interactive story automation character language use character motion intelligence to add sophistication to fighting athletics beauty and grace in game and story_base interactive system intelligent ultra high_speed selection_of detail rendition in move image realism cannot be a result of ray tracing of every object into every field_of view and do_not_need to be	26.698638	group the feature of the concept_class be learn can be use use to reduce the time require to learn the concept because_it lower the computation_time of each_sample and epoch	26.687325	
+Topic 6: what be know that computer simulation or replication of human ability have_already be achieve and that such achievement indicate ai to be a reasonable long_term objective few would deny	50.268834	this be a step_toward the important ai goal of corroborate map information with real_time ascertainable immediate environment	50.264511	in the computing industry this be know a the moore law but it can be transfer to the car industry too	50.262311	
+Topic 7: <digit> cdot <digit> cdot <digit>	54.212168	s_1 a <digit> s_2 a <digit>	54.163223	like <digit> <digit> or 1.5	54.158245	
 Topic 8: None
 Topic 9: None
 time slice 11, tag: 36
@@ -114,8 +114,8 @@ Topic 1: None
 Topic 2: None
 Topic 3: None
 Topic 4: None
-Topic 5: the question where be all_these algorithm be use	35.954913	human being use a hybrid of all_these algorithm	35.951285	use for_question_relate to the mythology of ai from skynet to the matrix to blade runner and include all speculative_fiction involve ai	35.870448	
-Topic 6: None
+Topic 5: None
+Topic 6: thus give_you a hidden layer whose value be permutation_invariant from the input	33.078012	and the_next hidden layer have <digit> node	33.034041	but_i_can't find_any guide directions how to build hidden layer	33.026610	
 Topic 7: None
 Topic 8: None
 Topic 9: None

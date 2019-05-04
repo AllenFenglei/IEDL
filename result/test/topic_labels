@@ -1,0 +1,33 @@
+time slice 0, tag: 1
+Topic 0:linguistic_element	0.835717	high_level	0.828610	activation_function	0.737332	gradient_descent	0.729526	customer_service	0.723995	
+Topic 1:linguistic_element	0.934662	gradient_descent	0.754807	use_case	0.681149	activation_function	0.678483	computer_vision	0.641225	
+Topic 2:natural_language	0.988924	customer_service	0.939019	train_data	0.891007	artificial_intelligence	0.887141	real_time	0.886533	
+Topic 3:activation_function	1.123993	real_time	0.898775	deep_model	0.884143	high_level	0.861812	license_plate	0.799651	
+Topic 4:computer_vision	0.909561	voice_recognition	0.896912	gradient_descent	0.796740	image_recognition	0.792207	customer_service	0.776432	
+Topic 5:image_classification	1.502074	data_set	1.359094	train_data	1.298254	image_recognition	1.281289	data_augmentation	1.133304	
+Topic 6:loss_function	1.030656	evaluation_function	1.028689	license_plate	0.935169	gray_image	0.900861	non_plate	0.857451	
+Topic 7:board_game	1.339195	next_move	1.053105	game_state	0.976653	reinforcement_learn	0.950491	alpha_beta	0.944302	
+Topic 8:train_data	0.891574	loss_function	0.850604	capsule_network	0.781699	artificial_intelligence	0.778068	topic_model	0.775381	
+Topic 9:capsule_network	1.090328	topic_model	1.063325	loss_function	0.824421	gradient_descent	0.795811	data_augmentation	0.773390	
+time slice 1, tag: 2
+Topic 0:neural_network	1.028240	image_recognition	0.988102	neural_net	0.811007	problem_statement	0.794889	human_mind	0.789308	
+Topic 1:natural_language	0.908669	image_recognition	0.777182	let's_say	0.775071	problem_statement	0.764171	capsule_network	0.733197	
+Topic 2:multi_camera_system	1.588759	human_driver	1.408572	google's_self	1.407718	traffic_sign	1.270282	self_drive_car	1.151213	
+Topic 3:let's_say	1.277150	terminal_state	1.146573	search_algorithm	1.137916	pseudo_random	0.998800	monte_carlo_algorithm	0.958728	
+Topic 4:game_play	1.091980	gradient_descent	0.801874	problem_statement	0.788643	real_time	0.742453	capsule_network	0.733219	
+Topic 5:autonomous_vehicle	0.891596	real_time	0.850011	action_space	0.819203	game_engine	0.809816	autonomous_car	0.797531	
+Topic 6:genetic_algorithm	0.954476	heuristic_function	0.907900	self_play	0.897429	action_space	0.851752	deep_reinforcement	0.849648	
+Topic 7:game_play	1.431789	game_state	1.325540	deep_reinforcement	1.243599	human_player	1.069087	tic_tac_toe	1.048252	
+Topic 8:alpha_beta	1.968931	principal_variation	1.650311	transposition_table	1.307079	search_algorithm	1.063211	monte_carlo_search	1.011691	
+Topic 9:span_class	1.315853	heuristic_function	0.856471	game_state	0.844216	give_state	0.844186	blue_ball	0.821564	
+time slice 2, tag: 3
+Topic 0:machine_learn	1.230770	low_level	1.021305	open_source	1.001143	artificial_intelligence	0.945324	genetic_algorithm	0.872421	
+Topic 1:real_time	0.974550	give_state	0.897578	use_tensorflow	0.887782	discount_factor	0.876776	public_relation	0.867572	
+Topic 2:play_chess	1.098963	use_case	0.873264	game_engine	0.660866	real_world	0.640413	speech_api	0.632664	
+Topic 3:autonomous_vehicle	0.914722	public_relation	0.756113	use_case	0.708887	natural_language	0.701245	speech_api	0.698172	
+Topic 4:public_relation	1.553203	autonomous_car	1.097277	human_driver	1.068760	autonomous_vehicle	1.027586	human_mind	0.993657	
+Topic 5:use_case	1.023720	game_engine	0.785694	data_set	0.780060	deep_neural_network	0.755517	voice_recognition	0.741199	
+Topic 6:human_driver	0.766471	autonomous_vehicle	0.712930	public_relation	0.681514	low_level	0.672046	real_world	0.664148	
+Topic 7:use_case	0.730756	play_chess	0.678336	low_level	0.658040	domain_knowledge	0.652700	math_container	0.593451	
+Topic 8:reinforcement_learn_algorithm	0.731075	data_set	0.700406	use_tensorflow	0.687186	human_driver	0.675672	use_case	0.660171	
+Topic 9:policy_gradient	1.505735	span_class	1.470098	reinforcement_learn	1.332739	deep_reinforcement	1.194326	gradient_descent	1.131111	

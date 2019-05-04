@@ -272,7 +272,7 @@ def OLDA_fit(OLDA_input, n_topics, win_size):
         dictionary, input_X, _, _1, _2, _3 = item
         #print(input_X)
         olda_model = OLDA(n_topics=n_topics, n_iter=1000, refresh=500, window_size=win_size)
-        olda_model.fit(input_X, decay_flag)
+        olda_model.fit(input_X, decay_flag, 0)
         phis[apk] = olda_model.B
         theta[apk] = olda_model.A
         fout = open("../result/topic_words_%s_%s_%s"%(apk, n_topics, win_size), 'w')
@@ -359,7 +359,7 @@ def get_sensitivities(dic, rawinput, rates, label_ids, views):
             for id, value in bow:
                 if id in label_ids[t_i]:
                     label_sensi[label_ids[t_i].index(id)].append([rates[t_i][d_i], len(doc_input), views[t_i][d_i]]) # record the rate and length
-        print(label_sensi)
+        #print(label_sensi)
         for rl in label_sensi:
             rl = np.array(rl)
             m_rl = np.mean(rl, 0)

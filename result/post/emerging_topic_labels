@@ -4,7 +4,7 @@ Topic 1: None
 Topic 2: None
 Topic 3: None
 Topic 4: None
-Topic 5: predict_whether	0.853279	matrix_multiplication	0.810246	problem_statement	0.804139	
+Topic 5: None
 Topic 6: None
 Topic 7: None
 Topic 8: None
@@ -18,18 +18,18 @@ Topic 4: None
 Topic 5: None
 Topic 6: None
 Topic 7: None
-Topic 8: implementation_detail	0.818757	independent_variable	0.805629	mammalian_brain	0.792245	
+Topic 8: bound_box	0.942863	span_class	0.908966	non_linear_function	0.860000	
 Topic 9: None
 time slice 3, tag: 28
-Topic 0: large_scale	0.940268	base_upon	0.919871	word_embed	0.911748	
+Topic 0: None
 Topic 1: None
 Topic 2: None
 Topic 3: None
 Topic 4: None
 Topic 5: None
-Topic 6: None
-Topic 7: None
-Topic 8: user_interface	0.941183	control_theory	0.937487	artificial_intelligence	0.893708	
+Topic 6: use_matlab	0.810092	policy_gradient_method	0.793211	optimal_policy	0.788026	
+Topic 7: final_state	0.914319	lstm_layer	0.902159	second_step	0.879301	
+Topic 8: incompleteness_theorem	0.999814	computer_vision	0.927258	epsilon_greedy_policy	0.920487	
 Topic 9: None
 time slice 4, tag: 29
 Topic 0: None
@@ -58,7 +58,7 @@ Topic 0: None
 Topic 1: None
 Topic 2: None
 Topic 3: None
-Topic 4: None
+Topic 4: alpha_beta	1.240850	next_move	1.032955	general_intelligence	0.945060	
 Topic 5: None
 Topic 6: None
 Topic 7: None
@@ -94,7 +94,7 @@ Topic 3: None
 Topic 4: None
 Topic 5: None
 Topic 6: None
-Topic 7: math_container	1.180117	time_step	0.930665	span_class	0.901454	
+Topic 7: math_container	1.228704	past_experience	0.865077	mini_batch	0.833395	
 Topic 8: None
 Topic 9: None
 time slice 10, tag: 35
@@ -104,8 +104,8 @@ Topic 2: None
 Topic 3: None
 Topic 4: None
 Topic 5: None
-Topic 6: None
-Topic 7: game_tree	0.848033	web_search	0.826213	information_theory	0.825493	
+Topic 6: math_container	1.223599	receptive_field	1.009527	continuous_control	0.986980	
+Topic 7: hill_climb	0.881711	alpha_beta	0.817981	experience_emotion	0.780466	
 Topic 8: None
 Topic 9: None
 time slice 11, tag: 36
@@ -114,8 +114,8 @@ Topic 1: None
 Topic 2: None
 Topic 3: None
 Topic 4: None
-Topic 5: operate_system	0.875746	counter_example	0.859449	object_type	0.854755	
-Topic 6: None
+Topic 5: None
+Topic 6: neural_net	0.921687	image_size	0.882189	define_intelligence	0.859219	
 Topic 7: None
 Topic 8: None
 Topic 9: None

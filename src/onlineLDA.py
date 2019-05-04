@@ -116,7 +116,7 @@ class OLDA:
         if len(logger.handlers) == 1 and isinstance(logger.handlers[0], logging.NullHandler):
             logging.basicConfig(level=logging.INFO)
 
-    def fit(self, X, decay_flag, alpha=0.1, eta=0.01, y=None):
+    def fit(self, X, decay_flag, SVM_flag, alpha=0.1, eta=0.01, y=None):
         """Fit the model with X.
 
         Parameters
@@ -166,7 +166,8 @@ class OLDA:
         #c=np.vstack((self.A[0],self.A[1]))
         #print(c.shape)
         #print(self.A[2].shape)
-        ##########!!!!!!!!!!!!!!!!!!!!!!!!self.test_SVM(self.A[2],"../dataset/rawdata/test_label.txt")
+        if SVM_flag == 1:
+            self.test_SVM(self.A[2],"../dataset/rawdata/test_label.txt")
         #self.test_SVM(self.A[2],"../dataset/software_label.txt")    #test for solfware     !!!!!!!!!!!!!!
         return self
 
@@ -651,7 +652,7 @@ class OLDA:
             train, train_label = X[train_index], y[train_index]
             test, test_label = X[test_index], y[test_index]
 
-        clf = SVC(C=5, kernel='sigmoid', gamma=10, decision_function_shape='ovr', random_state=23)#23  .705
+        clf = SVC(C=1, kernel='rbf', gamma=10, decision_function_shape='ovr', random_state=23)#23  .705
         clf.fit(train, train_label)
 
         print clf.score(train, train_label)
@@ -660,7 +661,7 @@ class OLDA:
         print clf.score(test, test_label)
         predict_test = clf.predict(test)
         #print self.accuracy(test_label, predict_test)
-        self.pre_recall(test_label, predict_test, 3)
+        self.pre_recall(test_label, predict_test, 6)
 
     def pre_recall(self, y_true, y_pred, topic_num):
         precision = []

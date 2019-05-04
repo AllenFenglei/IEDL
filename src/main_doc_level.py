@@ -1,5 +1,6 @@
 """
 Online LDA with a soft alignment to integrate previous states.
+For test accuracy
 """
 
 import os
@@ -40,7 +41,7 @@ my_stoplst = ["app", "good", "excellent", "awesome", "please", "they", "very", "
 
 
 # dataset
-app_files = Config.get_datasets()
+app_files = Config.get_testsets()
 app_files_pre = {}
 validate_files = Config.get_validate_files()
 candidate_num = Config.get_candidate_num()
@@ -279,7 +280,7 @@ def OLDA_fit(OLDA_input, n_topics, win_size):
         dictionary, input_X, _, _1, _2 = item
         #print(input_X)
         olda_model = OLDA(n_topics=n_topics, n_iter=1000, refresh=500, window_size=win_size)
-        olda_model.fit(input_X, decay_flag)
+        olda_model.fit(input_X, decay_flag, 1)
         phis[apk] = olda_model.B
         theta[apk] = olda_model.A
         fout = open("../result/topic_words_%s_%s_%s"%(apk, n_topics, win_size), 'w')

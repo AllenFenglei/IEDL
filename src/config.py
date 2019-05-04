@@ -11,6 +11,7 @@ class Config(object):
 
     """Section List"""
     __SEC_DATASETS = "DataSets"
+    __SEC_TESTSETS = "TestSets"
     __SEC_VERSIONS = "Versions"
     __SEC_INFO = "Info"
     __SEC_STORE = "Store"
@@ -53,6 +54,14 @@ class Config(object):
         :return: a list of tuples (app, path)
         """
         return cls.Parser.items(cls.__SEC_DATASETS)
+
+    @classmethod
+    def get_testsets(cls):
+        """
+
+        :return: a list of tuples (app, path)
+        """
+        return cls.Parser.items(cls.__SEC_TESTSETS)
 
     @classmethod
     def get_version_digits(cls):
