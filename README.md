@@ -4,11 +4,11 @@ the topic changes related to deep learning techniques on Stack Exchange and auto
 terpreting each identified topic.  The proposed framework combines the prior topic distributions
 in a time window during inferring the topics in current time slice, and introduces a new ranking
 scheme to select most representative phrases and sentences for the inferred topics.  Experiments
-on 7,076 Stack Exchange posts show the effectiveness of IEDL in tracking topic change
+on 7,076 Stack Exchange posts show the effectiveness of IEDL in tracking topic change.
 
 <p align="center"><img width="70%" src="AOLDAP.png" /></p>
 
-This project is based on the work of [IDEA](https://github.com/ReMine-Lab/IDEA)
+This project is based on the work of [IDEA](https://github.com/ReMine-Lab/IDEA).
 
 > Fenglei JIN, Cuiyun Gao, Michael Lyu. An Online Topic Modeling Framework with Topics Automatically Labeled.
 
